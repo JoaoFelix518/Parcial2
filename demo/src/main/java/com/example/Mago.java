@@ -1,7 +1,7 @@
 package com.example;
 
 public class Mago extends Criatura {
-    private String hechizos; // Atributo único del Mago[cite: 3]
+    private String hechizos; // Atributo único del Mago
 
     public Mago(String nombre, int salud, int fuerza, String hechizos) {
         super(nombre, salud, fuerza);

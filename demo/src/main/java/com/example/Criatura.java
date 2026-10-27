@@ -1,6 +1,6 @@
 package com.example;
 
-
+// Clase abstracta que define las características base de cualquier criatura
 public abstract class Criatura {
     protected String nombre;
     protected int salud;
@@ -13,16 +13,16 @@ public abstract class Criatura {
         this.fuerza = fuerza;
     }
 
-    
+    // Métodos abstractos que deben implementar las subclases
     public abstract void atacar(Criatura objetivo);
     public abstract void defender(int daño);
 
-    
+    // Método concreto para verificar si la criatura sigue con vida
     public boolean estaViva() {
         return this.salud > 0;
     }
 
-    
+    // Getters y Setters
     public String getNombre() {
         return nombre;
     }
