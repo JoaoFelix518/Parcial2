@@ -1,7 +1,7 @@
 package com.example;
 
 public class Dragon extends Criatura {
-    private String escamas; // Atributo único del Dragón[cite: 3]
+    private String escamas; // Atributo único del Dragón
 
     public Dragon(String nombre, int salud, int fuerza, String escamas) {
         super(nombre, salud, fuerza * 2); // El dragón tiene un ataque más fuerte (multiplicado)
